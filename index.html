@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>score board</title>
+</head>
+<body>
+    <main>
+        <div id="container">
+            <div>
+                <h3>HOME</h3>
+                <p id="homeScore">0</p>
+                <ul>
+                    <li><button id="add1btn" onclick="add1PointHome()">+1</button></li>
+                    <li><button id="add2btn" onclick="add2PointHome()">+2</button></li>
+                    <li><button id="add3btn" onclick="add3PointHome()">+3</button></li>
+                </ul>
+            </div>
+            <div>
+                <button id="reset-btn" onclick="reset()">
+                    RESET
+                </button>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <p id="awayScore">0</p>
+                <ul>
+                    <li><button id="add1btn" onclick="add1PointAway()">+1</button></li>
+                    <li><button id="add2btn" onclick="add2PointAway()">+2</button></li>
+                    <li><button id="add3btn" onclick="add3PointAway()">+3</button></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>

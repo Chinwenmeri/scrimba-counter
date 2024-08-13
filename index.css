@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Kumbh+Sans:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@700&display=swap');
+body {
+    margin: 0;
+}
+
+#container {
+    border-radius: 10px;
+    background: #360568;
+    font-family: "Foldit", sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+p{
+    font-family: "Bungee Tint", sans-serif;
+    font-size: 70px;
+    text-align: center;
+    background: #002400;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    bottom: 40px;
+}
+ul{
+    position: relative;
+    right: 20px;
+    bottom: 90px;
+    display: flex;
+    list-style: none;
+}
+ul li{
+    margin: 10px;
+}
+ul li button{
+    background: none;
+    border-radius: 5px;
+    border: solid 2px #437C90;
+    padding: 10px;
+    color: #437C90;
+}
+#reset-btn{
+    position: relative;
+    bottom: 50px;
+    padding: 10px 50px;
+    color: #AEECEF;
+    border: solid 2px #AEECEF;
+    border-radius: 10px;
+    background-color: #69B578;
+}
